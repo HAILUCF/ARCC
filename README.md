@@ -12,7 +12,7 @@ Instructions on getting started on UCF's Advanced Research Computing Center's hi
 # Requirements
 To access a cluster, you must have the following:
 * UCF NID
-* Registered ARCC Account
+* Registered ARCC Account. [Sign-up Here](https://arcc.ist.ucf.edu/index.php/accounts/user-registration-form?view=form)
 * Be on the UCF Network (WiFi, LAN, or VPN)
   * [UCF VPN Instructions](https://ucfvpn-1.vpn.ucf.edu/+CSCOE+/logon.html?a0=15&a1=&a2=&a3=1#form_title_text)
  
@@ -36,7 +36,9 @@ If you are using a terminal/command-line interface to connect, use the following
     * `ssh -Y -i ida_rsa userid@stokes.ist.ucf.edu`
   
 # Modules
-Modules are software packages that are available on the cluster, so you do not need to download them. There are over 150 packages available, including compilers and interpreters (python, anaconda, GCC, R, mathlab, etc.)
+[Modules Tutorial](https://arcc.ist.ucf.edu/index.php/help/tutorials/module-system)
+
+Modules are software packages that are available on the cluster, so you do not need to download them. There are over 150 packages available, including compilers and interpreters (python, anaconda, GCC, R, mathlab, etc.) To use a module, you must first load it. Below are commands to list, load, and unload modules.
 * List all available modules: `module avail`
 * List python versions available: `module avail python`
 * List anaconda versions available: `module avail anaconda`
@@ -45,3 +47,13 @@ Modules are software packages that are available on the cluster, so you do not n
 * Unload python: `module unload python`
 * Load multiple modules: `module load python gcc`
 * Unload all loaded modules: `module purge`
+
+# SLURM
+[SLURM Tutorial](https://arcc.ist.ucf.edu/index.php/help/tutorials/job-submission-within-the-arcc)
+
+SLURM is the job scheduler used to submit jobs to the cluster. You should not run jobs directly on the cluster without scheduling it. Here are some SLURM commands
+* Show node availability: `sinfo`
+* View running jobs: `squeue`
+* View your running jobs: `squeue -u USERID`
+* Submit a job: `sbatch helloworld.slurm`
+* Cancel a job: `scancel JOB_ID`
