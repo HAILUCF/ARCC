@@ -1,4 +1,4 @@
-# ARCC
+# ARCC Orientation
 Instructions on getting started on UCF's Advanced Research Computing Center's high-performance computing clusters.
 
 * [ARCC Home Page](https://arcc.ist.ucf.edu/)
@@ -6,8 +6,8 @@ Instructions on getting started on UCF's Advanced Research Computing Center's hi
 * [ARCC Video Tutorials](https://youtube.com/playlist?list=PLla7wVlbY2ISTBJJO588nkLQPntoTr0ex&si=12tYVBbwU5igOYjS)
 
 # ARCC Hostnames/Addresses
-* Stokes (general computing cluster): stokes.ist.ucf.edu
-* Newton (GPU cluster): newton.ist.ucf.edu
+* Stokes (general computing cluster): _stokes.ist.ucf.edu_
+* Newton (GPU cluster): _newton.ist.ucf.edu_
   
 # Requirements
 To access a cluster, you must have the following:
