@@ -4,8 +4,8 @@
 #SBATCH --ntasks-per-node=1
 #SBATCH --time=00:01:00
 #SBATCH --job-name=helloworld
-#SBATCH --error=helloworld-%J.err
-#SBATCH --output=helloworld-%J.out
+#SBATCH --error=helloworld.err
+#SBATCH --output=helloworld.out
 
 # Load modules
 module load python
