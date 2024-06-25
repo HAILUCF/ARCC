@@ -4,8 +4,8 @@
 #SBATCH --ntasks-per-node=1
 #SBATCH --time=00:01:00
 #SBATCH --job-name=regression
-#SBATCH --error=regression-%J.err
-#SBATCH --output=regression-%J.out
+#SBATCH --error=regression.err
+#SBATCH --output=regression.out
 
 # Load modules
 module load python
