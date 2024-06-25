@@ -15,6 +15,7 @@ To access a cluster, you must have the following:
 * Registered ARCC Account. [Sign-up Here](https://arcc.ist.ucf.edu/index.php/accounts/user-registration-form?view=form)
 * Be on the UCF Network (WiFi, LAN, or VPN)
   * [UCF VPN Instructions](https://ucfvpn-1.vpn.ucf.edu/+CSCOE+/logon.html?a0=15&a1=&a2=&a3=1#form_title_text)
+* Your private key (_ida\_rsa_) and passphrase.
  
 # Software
 To interact with a cluster, you should use a terminal software.
